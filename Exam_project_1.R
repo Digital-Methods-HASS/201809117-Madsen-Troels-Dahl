@@ -50,7 +50,7 @@ depression_data<-transform(depression_data, Year = as.numeric(Year))
 barplot(
   # I chose a barplot design for my dataset.
   
-  height=depression_data$Residents,
+  height=depression_data$Number.of.Legal.Permanent.Residents,
   # The height of my bars is set to the residents for the 
   # corresponding year. 
   
